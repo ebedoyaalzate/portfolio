@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Navbar from '../components/navbar'
+import Navbar from '@/components/Navbar'
+import Description from '@/components/Description'
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -18,7 +19,7 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className=" min-h-screen">
           <Navbar />
-          
+          <Description />
         </section>
       </main>
     </>
