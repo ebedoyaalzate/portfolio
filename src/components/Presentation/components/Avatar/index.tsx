@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import deved from '../../public/dev-ed-wave.png'
+import deved from '../../../../public/dev-ed-wave.png'
 
 function Avatar() {
   return (
