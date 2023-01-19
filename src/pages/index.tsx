@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import Description from '@/components/Description'
-
 import SocialMedia from '@/components/SocialMedia'
+import Avatar from '@/components/Avatar'
 
 export default function Home() {
   return (
@@ -14,10 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white px-10">
-        <section className=" min-h-screen">
+        <section className="min-h-screen">
           <Navbar />
           <Description />
           <SocialMedia />
+          <Avatar />
         </section>
       </main>
     </>
