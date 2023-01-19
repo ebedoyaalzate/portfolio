@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Description from '@/components/Description'
 import SocialMedia from '@/components/SocialMedia'
