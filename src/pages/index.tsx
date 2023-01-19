@@ -1,11 +1,8 @@
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import Description from '@/components/Description'
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from 'react-icons/ai'
+
+import SocialMedia from '@/components/SocialMedia'
 
 export default function Home() {
   return (
@@ -20,6 +17,7 @@ export default function Home() {
         <section className=" min-h-screen">
           <Navbar />
           <Description />
+          <SocialMedia />
         </section>
       </main>
     </>
